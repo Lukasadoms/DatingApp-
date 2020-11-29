@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace API.Controllers
 {
     [ApiController] // indicates that this is a controller
-    [Route("[controller]")] //how is the user is able to get to to it/
+    [Route("[controller]")] //how is the user will be able to get to the API/
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
